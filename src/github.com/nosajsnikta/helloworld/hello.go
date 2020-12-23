@@ -1,12 +1,10 @@
 // this is go file
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("Hello jason")
-	a := 10
-	fmt.Println(a)
+	a := 8 // 1000
+	b := 7 // 0111
+	fmt.Println(a &^ b)
 }
